@@ -2,7 +2,7 @@
 
 A web-based platform that helps students and working professionals find suitable Paying Guest (PG) accommodations based on location, budget, room type, amenities, and availability. PG owners can manage their properties, rooms, bookings, and tenant enquiries, while administrators manage users and monitor the overall platform.
 
-Project Overview
+**Project Overview**
 
 PG Finder provides three separate dashboards for Tenants, PG Owners, and Admins.
 
@@ -12,7 +12,7 @@ PG Owners can add and manage PG properties, rooms, rent, availability, bookings,
 
 Admins can manage users and owners, verify owners, approve PG listings, monitor bookings, handle reports, and view platform activities.
 
-Key Features:
+**Key Features:**
 User authentication with role-based access
 PG search by city and location
 Search and filter by budget, room type, amenities, and availability
@@ -29,7 +29,7 @@ Reports and complaints management
 Dashboard analytics
 
 User Roles:
-Tenant:
+**Tenant:**
 Search and filter PG accommodations
 View PG locations on a map
 Check rooms, rent, amenities, and availability
@@ -40,7 +40,7 @@ Book rooms
 Communicate with owners
 Give reviews and ratings
 
-PG Owner:
+**PG Owner:**
 Add and manage PG properties
 Add rooms and set rent
 Manage room availability
@@ -50,7 +50,7 @@ Respond to tenant enquiries
 Communicate with tenants
 View reviews and property performance
 
-Admin:
+**Admin:**
 Manage users and owners
 Verify PG owners
 Approve or reject PG listings
@@ -60,7 +60,7 @@ Monitor system activities
 View overall platform analytics
 
 Technology Stack:
-Frontend:
+**Frontend:**
 React.js
 Vite 
 Tailwind CSS 
@@ -70,7 +70,7 @@ Leaflet & OpenStreetMap
 Recharts 
 Socket.IO Client 
 
-Backend:
+**Backend:**
 Python
 Flask 
 Flask-SocketIO 
@@ -81,15 +81,15 @@ Pillow
 Requests 
 python-dotenv 
 
-Database:
+**Database:**
 MongoDB – Stores users, PGs, rooms, bookings, enquiries, reviews, and other application data.
 
-Authentication:
+**Authentication:**
 JWT Authentication
 Google OAuth
 bcrypt Password Hashing
 
-System Workflow:
+**System Workflow:**
 User registers or logs into the application.
 The system identifies the user's role.
 The user is redirected to the relevant dashboard.
